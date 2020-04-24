@@ -8,9 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>hello</title>
+    <title>权限认证，使用过滤器</title>
 </head>
 <body>
-hello world
+<form action="/javaweb/servlet1" method="get">
+    用户名: <input type="text" name="name">
+    密码: <input type="password" name="password">
+    <input type="submit" name="登录">
+</form>
+<a href="/javaweb/servlet1">heihei</a>
 </body>
 </html>
